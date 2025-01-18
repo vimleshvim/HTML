@@ -1,0 +1,134 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *
+    {
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+        box-sizing: border-box;
+    }
+    .outer
+    {
+        width: 100%;
+        background-image: url(1.jpeg);
+        background-size: cover;
+        height: 600px;
+    }
+    .card
+    {
+        width: 1170px;
+        margin: 0px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .card-item
+    {
+        background-color: white;
+        flex-basis: 23%;
+        height: 300px;
+        margin: 10px 0px;
+        padding: 10px;
+        border-radius: 10px;
+
+    }
+    .card-item h3
+    {
+        text-align: center;
+    }
+    .card-item p
+    {
+        text-align: justify;
+        line-height: 30px;
+    }
+    @media only screen and (min-width:200px) and (max-width:760px) {
+        .card
+        {
+            width: 100%;
+            flex-direction: column;
+        }
+    }  
+    .btn
+    {
+        margin: auto;
+        height: 30px;
+        width: 80px;
+        background-color: red;
+        color: white;
+    }
+    .btn::before{
+
+        background-color: skyblue;
+    }
+    .btn:hover::before{
+       
+       transition: all ease 0.5s;
+        background-color: skyblue;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="btn">click me</div>
+    <div class="outer">
+<h1 style="text-align: center;padding: 10px 0px;">Our Training courses</h1>
+<div class="card">
+<div class="card-item" >
+    <h3>HTML</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+<div class="card-item" >
+    <h3>CSS</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+<div class="card-item" >
+    <h3>JAVASCRIPT</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+<div class="card-item" >
+    <h3>BOOTSTRAP</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+<div class="card-item" >
+    <h3>JQUERY</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+<div class="card-item" >
+    <h3>PHP</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+<div class="card-item" >
+    <h3>.NET</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+<div class="card-item" >
+    <h3>JAVA</h3>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vero veniam odit reprehenderit quis molestias fugiat consequuntur, asperiores sed culpa architecto, reiciendis error iusto maiores? Obcaecati quod perspiciatis doloremque nesciunt!
+    </p>
+</div>
+</div>
+    </div>
+   
+</body>
+</html>

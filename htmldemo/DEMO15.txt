@@ -1,0 +1,6 @@
+<html>
+<head></head>
+<body>
+<h1>DATALIST IN HTML</h1>
+</body>
+</html>
