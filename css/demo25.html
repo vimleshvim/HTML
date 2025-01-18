@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div
+        {
+           border: 4px solid red;
+           height: 100px;
+           width: 100px;
+      
+           
+        }
+        #dv
+        {
+           animation-duration: 4s;
+           animation-name: abcd;
+           animation-timing-function:linear;
+        }
+        #dv1
+        {
+           animation-duration: 4s;
+           animation-name: abcd;
+           animation-timing-function:ease;
+           background: red;
+        }
+        #dv2
+        {
+           animation-duration: 4s;
+           animation-name: abcd;
+           animation-timing-function:ease-in;
+           background: red;
+        }
+        #dv3
+        {
+           animation-duration: 4s;
+           animation-name: abcd;
+           animation-timing-function:ease-out;
+          
+        }
+        #dv4
+        {
+           animation-duration: 4s;
+           animation-name: abcd;
+           animation-timing-function:ease-in-out;
+           background: red;
+        }
+        #dv5
+        {
+           animation-duration: 4s;
+           animation-name: abcd;
+           animation-timing-function:steps(4);
+           background: red;
+        }
+       @keyframes abcd
+       {
+        from{
+            height: 100px;
+            
+        }
+        to{
+          
+            width: 1000px;
+        }
+       }
+
+        </style>
+</head>
+<body>
+   <div id="dv"></div>
+   <div id="dv1"></div>
+   <div id="dv2"></div>
+   <div id="dv3"></div>
+   <div id="dv4"></div>
+   <div id="dv5122"></div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+background: url(1.jpeg);
+background-size: 100%,100%;
+
+        }
+        #dv{
+            height: 400px;
+            width: 400px;
+            background:skyblue;
+            margin: 100px auto;
+            text-align: center;
+            line-height: 400px;
+            font-size: 40PX;
+            color: brown;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 10px solid #808080;
+            border-radius: 20px;
+            animation-name: myanimation;
+            animation-duration: 4s;
+            animation-iteration-count: 10;
+            animation-delay: 2s;
+           /* animation-direction: normal;*/
+           /*animation-direction: reverse;*/
+          /* animation-direction: alternate;*/
+           animation-direction: alternate-reverse;
+          
+           
+
+        }
+        #dv:hover
+        {
+            animation-play-state: paused;
+        }
+        @keyframes myanimation {
+            0%{
+                background:red;
+            }
+            25%{
+                background:blue;
+            }
+            50%{
+                background:green;
+            }
+            100%{
+                background:yellow;
+            }
+            
+        }
+        </style>
+</head>
+<body>
+    <div id="dv">BAUDHYANTRAM</div>
+</body>
+</html>

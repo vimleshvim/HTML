@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+	<style>
+	body
+	{
+	background:url("2.jpeg");
+	background-size:cover;
+	
+	}
+	#label{
+    position: absolute;
+    top: 30px;
+    left: -50px;
+    padding: 5px 40px;
+    letter-spacing: 1px;
+    background: crimson;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    transform: rotate(-45deg);
+    border-bottom: 2px solid rgba(255,255,255,0.5);
+}
+	</style>
+</head>
+<body>
+<div id="box">
+    <h1 id="h">WELCOME TO BAUDHYNTRAM</h1>
+    <div id="dv">WELCOME TO BAUDHYNTRAM</div>
+	</div>
+	<div id="label">BAUDHYNTRAM</div>
+	
+	<script>
+var  demo=()=>
+{
+var a=document.querySelector("#box").innerHTML;
+document.body.innerHTML=a
+window.print();
+}
+</script>
+</body>
+</html>

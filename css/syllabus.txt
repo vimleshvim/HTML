@@ -1,0 +1,236 @@
+                         FONT
+=======================================
+font-size:
+font-family:
+font-weight:
+font-style:
+=======================================
+            FLOAT PROPERTY
+=======================================
+LEFT
+RIGHT			
+======================================== 
+            BORDER PROPERTY
+========================================
+solid
+dotted
+double
+groove
+dashed			 
+=========================================
+             Alignment Property
+==========================================
+left
+right
+center
+justify		 
+==========================================
+Syntax:
+--------
+text-align:center|left|right|jutify;	 
+==========================================
+Margin
+padding
+==========================================
+
+===========================================
+                   SPACING
+===========================================
+line-height:
+word-spacing
+letter-spacing
+=============================================
+               GRADIENT PROPERTY
+=============================================
+linear-gradient()
+ directive value
+ ======================
+ 1.to top
+ 2.to bottom
+ 3.to right
+ 4.to left
+ 5.to top left
+ 6.to top right
+ 7.to bottom right
+ 8.to bottom left
+
+=============================================
+             TRANFORM
+=============================================
+transform=>it is used to rechanged the structure of an element.
+rotate||scale||scalex||scaley||skew||skewx||skewy||translate||
+translatey||translatex
+
+rotate()
+skew()
+skewx
+skewy
+translate
+translatey
+translatex
+scale
+scalex
+scaley
+
+
+
+
+
+Animation
+============================
+syntax
+==============
+@keyframes Animation_name
+{
+from{
+property:value;
+property:value;
+}
+to{
+property:value;
+property:value;
+}
+}
+Animation calling
+========================
+Animation-name:abc;
+animation-duration:time in seconds 5s;
+animation-iteration-count:number|infinite;
+animation-delay:time in second 2s;
+animation-direction:normal|reverse|alternate|alternate-reverse|;
+animation-play-state:running|paused;
+animation-fill-mode:none|forwards|backwards|both
+animation-timing-function:
+
+=======================================
+linear=>same speed
+ease =>start slow and end slow
+ease-in =>start slow
+ease-out =>end slow
+ease-in-out =>start slow then fast and end slow
+steps =>(4)
+
+
+=========================================================================
+@keyframes animation_name{
+0%{}
+100%{}
+}
+======================================
+@keyframes animation_name{
+0%{}
+25%{}
+50%{}       =animation-duration:4s;
+100%{}
+}
+========================================
+Example:
+=========================================
+#dv{
+            height: 400px;
+            width: 400px;
+            background:skyblue;
+            margin: 100px auto;
+            text-align: center;
+            line-height: 400px;
+            font-size: 40PX;
+            color: brown;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            border: 10px solid #808080;
+            border-radius: 20px;
+            animation-name: myanimation;
+            animation-duration: 4s;
+            animation-iteration-count: 10;
+            animation-delay: 2s;
+           /* animation-direction: normal;*/
+           /*animation-direction: reverse;*/
+          /* animation-direction: alternate;*/
+           animation-direction: alternate-reverse;
+          
+           
+
+        }
+        #dv:hover
+        {
+            animation-play-state: paused;
+        }
+        @keyframes myanimation {
+            0%{
+                background:red;
+            }
+            25%{
+                background:blue;
+            }
+            50%{
+                background:green;
+            }
+            100%{
+                background:yellow;
+            }
+            
+        }
+        </style>
+=================================
+position:static||relative||absolute||fixed||sticky 
+=============
+=======================================================
+                   FLEX-BOX
+======================================================== 
+Container ...
+The flex container properties are:; 
+======================================
+flex-direction    =>row||row-reverse||column||column-reverse
+flex-wrap         =>nowarp(by default)||wrap||wrap-reverse
+flex-flow         =><flex-direction><flex-wrap>
+justify-content(horizental alignment)   =>flex-start||flex-end||center||space-around|space-between||space-evenly
+align-content(vartical alignment)   =>flex-start||flex-end||center||space-around|space-between||space-evenly||stretch(by default)
+
+align-items   (vartical alignment)=>flex-start||flex-end||center||stretch(by default)||baseline
+===========================================
+The flex item properties are:
+==========================================
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
+
+=======================================================
+pseudo classes
+--------------
+:hover
+:link
+:visited
+:active
+:first-child
+:last-child
+:nth-child()
+:nth-child(odd)
+:nth-child(even)
+pseudo elements
+---------------
+::selection
+::before
+::after
+::first-letter
+::first-line
+::placeholder
+=================================================================
+Filter
+-------------------
+blur(px) 0 default 
+contrast(%)    ===>100default 100++ 
+brightness(%)  ==>100 default 100++ 
+drop-shadow()  ==>just like box shadow
+grayscale(%)   ==>black and white 0default 100 gray   
+hue-rotate(deg)  ===>
+invert(%)        ==> 0 to 100
+opacity(%)
+saturate(%)     ==>100++
+sepia(%)       0 to 100
+========================================================================  
+
+
+
+

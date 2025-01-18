@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: url(2.jpeg);
+            background-size: cover;
+        }
+        #outer
+        {
+            height: 500px;
+            width: 1000px;
+            background:rgba(0,0,0,.4);
+            margin: 100px auto;
+            box-sizing: border-box;
+            border-radius: 20px;
+
+        }
+        #left
+        {
+            height: 250px;
+            width: 400px;
+            float: left;
+            box-sizing: border-box;
+            margin: 125px 100px;
+            color: wheat;
+            font-size: 20px;
+            
+        }
+        #right
+        {
+            height: 500px;
+            width: 400px;
+          
+            float: left;
+            font-size: 50px;
+            font-weight: 100px;
+            font-family: impact;
+            line-height: 500px;
+            text-align: center;
+            color: aqua;
+          
+        }
+        .txt
+        {
+            height: 45px;
+            width: 100%;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            
+
+        
+        }
+        #btn
+        {
+            height: 45px;
+            width: 100%;
+            border-radius: 20px; 
+            font-size: 30px;
+        
+        }
+        #btn:hover
+        {
+            height: 40px;
+            width: 100%;
+            border-radius: 20px; 
+            margin-top: 15px;
+            background: black;
+            color: white;
+        }
+        ::placeholder
+        {
+            color: red;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="left">
+USERID<br>
+<input type="text" placeholder="USERID...." class="txt"><br>
+PASSWORD<br>
+<input type="password" placeholder="password...." class="txt"><br>
+
+<input type="button" id="btn" value="Login">
+
+        </div>
+        <div id="right">Admin<span style="color: red;"> Login</span></div>
+    </div>
+</body>
+</html>

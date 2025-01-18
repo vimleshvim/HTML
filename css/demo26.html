@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+div{
+    height: 80px;
+    width: 80px;
+    border: 5px solid navy;
+   
+}
+#a
+{
+animation: myanimation 4s linear;
+}
+#a1
+{
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+}
+#a2
+{
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    background: red;
+}
+#a3
+{
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+ 
+}
+#a4
+{
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    background: red;
+}
+#a5
+{
+    animation-name: myanimation;
+    animation-duration: 4s;
+    animation-timing-function: steps(5);
+    background: red;
+}
+@keyframes myanimation
+{
+    from{
+height: 100px;
+    }
+    to
+    {
+        width: 800px;
+
+    }
+}
+        </style>
+</head>
+<body>
+    <div id="a"></div>
+    <div id="a1"></div>
+    <div id="a2"></div>
+    <div id="a3"></div>
+    <div id="a4"></div>
+    <div id="a5"></div>
+</body>
+</html>
